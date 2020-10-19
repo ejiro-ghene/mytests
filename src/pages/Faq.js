@@ -1,13 +1,13 @@
 import React from 'react';
 import './Faq.css'
-import Footer from '../components/footer';
+import Menu from '../components/Menu';
 import Subscribe from '../components/subscribe';
 
 function Faq() {
     return ( 
         
         <section>
-
+            <Menu/>
             <div className="faq-header">
                 <div className='faq-text'>
                     <h1> FAQ </h1>
@@ -64,7 +64,7 @@ function Faq() {
                     <p>How many people can attend a course?</p>
                 </div>
             </div>
-            
+            <Subscribe/>
         </section>
         
     )

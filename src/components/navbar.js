@@ -9,7 +9,7 @@ function Navbar() {
                     <Link to="/" className="navbar-logo">
                         <img src={require('../img/logo.jpg')} alt="logo"/>
                     </Link>
-                    <Link to="/softwareDesigners">LEARNABLE</Link>
+                    <Link to="/softwaredevelopers">LEARNABLE</Link>
                     <Link to="/productDesigners">AGORA</Link>
                     <Link to="/apply">STARTZONE</Link>
                     <Link to="/journal">ABOUT</Link>

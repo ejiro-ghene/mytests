@@ -2,9 +2,7 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
-import Menu from './components/Menu';
 import Footer from './components/footer';
-import Subscribe from './components/subscribe';
 
 // PAGES 
 import Home from './pages/Home';
@@ -20,9 +18,7 @@ function App() {
   return (
     <>
     <Router>
-      <Navbar/>
-      <Menu />
-      
+      <Navbar/>      
       <Switch>
         <Route path='/' exact component={Index} />
         <Route path='/home' component={Home} />
@@ -32,7 +28,6 @@ function App() {
         <Route path='/faq' component={Faq} />
         <Route path='/apply' component={Apply} />
       </Switch>
-      <Subscribe/>
       <Footer/>
     </Router>
     

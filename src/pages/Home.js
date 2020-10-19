@@ -1,10 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Menu from '../components/Menu'
 import './home.css'
+import Menu from '../components/Menu';
+import Subscribe from '../components/subscribe';
 
 function Home() {
-    return<>
+    return <>
+        <Menu/>
         <header className="header-container">
              <div className="header-content">
 
@@ -211,6 +213,7 @@ function Home() {
             </section>
 
         </section>
+        <Subscribe/>
         </>
 }
 

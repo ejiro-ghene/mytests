@@ -1,9 +1,12 @@
 import React from 'react'
+import Menu from '../components/Menu';
+import Subscribe from '../components/subscribe';
 
 function productDesigners() {
     return (
         <>
-           <h1>productDesigners</h1>
+            <Menu/>
+            <h1>productDesigners</h1>
 
            <section className="productDesign">
                     <div className="hero-img">
@@ -31,6 +34,7 @@ function productDesigners() {
                         </p>
                 </div>
             </section>
+            <Subscribe/>
         </>
     )
 }

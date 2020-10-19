@@ -1,10 +1,12 @@
 import React from 'react'
 import './Journal.css'
-import Grid from  '../components/Grid-4'
+import Grid from '../components/Grid-4'
+import Menu from '../components/Menu';
+import Subscribe from '../components/subscribe';
 
 function Journal() {
     return <>
-
+        <Menu/>
         <section className='journal-header'>
             <div className=""><h1>Journal</h1></div>
             <div>
@@ -42,7 +44,7 @@ function Journal() {
             <button>Load More</button>
         </div>
 
-
+        <Subscribe/>
     </>
 }
 

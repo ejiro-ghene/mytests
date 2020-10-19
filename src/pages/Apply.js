@@ -1,9 +1,13 @@
 import React from 'react'
 import './Apply.css'
+import Menu from '../components/Menu';
+import Subscribe from '../components/subscribe';
 
 function Apply() {
     return (
         <section>
+            <Menu />
+
             <div className="apply-header"></div>
 
             <div className="apply-content">
@@ -45,6 +49,8 @@ function Apply() {
                     
                 </div>
             </div>
+            <Subscribe/>
+
        </section>
     )
 }

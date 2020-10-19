@@ -1,9 +1,12 @@
 import React from 'react'
 import './SoftwareDevelopers.css'
+import Menu from '../components/Menu';
+import Subscribe from '../components/subscribe';
 
 const SoftwareDevelopers = () => {
     return (
         <div className='software-container'>
+            <Menu/>
             <div className="hero">
                 <div className="hero-container">
                     <p className="title">
@@ -48,7 +51,7 @@ const SoftwareDevelopers = () => {
                     </p>
                 </div>
             </div>
-            
+            <Subscribe/>            
         </div>
     )
 }
