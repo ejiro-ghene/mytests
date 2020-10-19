@@ -1,0 +1,39 @@
+.faq-header{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 73px 70px 51px 100px;
+    position: relative;
+}
+
+.faq-text h1{
+    font-size: 96px;
+}
+
+.faq{
+    height: 800px;
+    width: 500px;
+    left: 470px;
+    top: 752.26025390625px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.faq-content{
+    width: 500px;
+    height: 52.56px;
+    border-width: 2px rgb(46, 45, 45);
+    text-decoration-line: underline;
+}
+
+.subscribe-container{
+    position: relative;
+    /* top: 2443px; */
+}
+
+footer {
+    position: relative;
+    /* top: 2756px; */
+}

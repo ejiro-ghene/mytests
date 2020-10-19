@@ -1,0 +1,89 @@
+.journal-header {
+    height: 438px;
+    width: 95%;
+    /* left: 50px; */
+    top: 262px;
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto 0px auto;
+    padding: 0px 200px;
+}
+
+.journal-header h1{
+    font-size: 96px;
+}
+
+.grid-head{
+    
+}
+
+.journal-header button{
+    height: 36px;
+    width: 106px;
+    border-radius: 4px;
+    height: 36px;
+    border-width: 1px;
+    background: none;
+    color: #17255A;
+}
+
+.journal-hero{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+}
+
+.hero-content{
+    padding-right: 90px;
+}
+
+.hero-content-footer{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.hero-content-footer p{
+    margin-left: 20px;
+font-family: Nunito;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+
+}
+
+.journal-grid{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.grid-head{
+    margin-bottom: 60px;
+}
+
+.journal-load{
+    text-align: center;
+}
+
+.journal-load button{
+    /* margin-left: 80px; */
+    height: 36px;
+    width: 106px;
+    border-radius: 4px;
+    height: 36px;
+    border-width: 1px;
+    background: none;
+    color: #17255A;
+    margin-bottom: 50px;
+}
