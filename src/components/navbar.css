@@ -8,6 +8,10 @@
     color: #080808;
 }
 
+.nav-logo{
+    display: block;
+}
+
 .navbar-container a{
     text-decoration-line: none;
     margin-right: 40px;
@@ -16,16 +20,19 @@
     font-weight: 600;
     letter-spacing: 1.25px;
     line-height: 16.53px;
-    color: #273043;
-    
+    color: #273043;  
 }
 
 .navbar-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-grow: 1;
 }
 
+.nav-button{
+    display: flex;
+}
 .nav-button span{
     margin: 10px;
     font-family: Nunito;

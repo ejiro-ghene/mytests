@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 import './navbar.css'
 
@@ -7,7 +7,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
-                        <img src={require('../img/logo.jpg')} alt=""/>
+                        <img src={require('../img/logo.jpg')} alt="logo"/>
                     </Link>
                     <Link to="/softwareDesigners">LEARNABLE</Link>
                     <Link to="/productDesigners">AGORA</Link>
