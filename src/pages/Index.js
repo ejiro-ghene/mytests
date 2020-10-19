@@ -25,7 +25,61 @@ function index() {
                 
             </div>
 
-            <div className="blue-bg">
+            <div className="learnable-container">
+                <div className="blue-bg-img">
+                    <img src={require('../img/smile.png')} alt=""/>
+                </div>
+                <div className="text-bg">
+                    <div>
+                    <h2>Learnable</h2>
+                        <p>
+                            Every year, young Nigerians are launching new careers in the technology industry. Find out how Genesys is helping them do it.
+                        </p>
+                    <p className="sm-text">
+                        LEARN MORE
+                    </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div className="agora learnable-container">
+                <div className="text-bg">
+                    <div>
+                    <h2>Agora</h2>
+                        <p>
+                        We are reimagining the workplace and how people work. Find out how our co-working spaces can help you enjoy the work that you do.
+                        </p>
+                    <p className="sm-text">
+                        LEARN MORE
+                    </p>
+                    </div>
+                    
+                </div>
+                <div className="blue-bg-img">
+                    <img src={require('../img/agora.png')} alt=""/>
+                </div>
+            </div>
+
+            <div className="startzone learnable-container">
+                <div className="blue-bg-img">
+                    <img src={require('../img/startzone.png')} alt=""/>
+                </div>
+                <div className="text-bg">
+                    <div>
+                    <h2>StartZone</h2>
+                        <p>
+                        The business environment is harsh for early-stage businesses. We can help you rise above it all.
+                        </p>
+                    <p className="sm-text">
+                        HERE'S HOW
+                    </p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div className="blue-bg learnable-container">
                 <div className="blue-bg-img">
                     <img src={require('../img/blue-bg-img.png')} alt=""/>
                 </div>
@@ -33,9 +87,9 @@ function index() {
                     <div>
                     <h2>The best team in the world</h2>
                     <p>We work with the most amazing people our industry has to offer. They are really passionate about making a difference</p>
-                    <p className="sm-text">
-                    See team
-                    </p>
+                    <span className="sm-text">
+                    SEE TEAM
+                    </span>
                     </div>
                     
                 </div>

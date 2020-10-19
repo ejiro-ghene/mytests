@@ -41,16 +41,27 @@
     justify-content: center;
 }
 
-
-
-.blue-bg {
+.learnable-container{
     height: 780px;
     display: grid;
     grid-gap: 50px;
     grid-template-columns: 1fr 1fr;
     padding: 100px 50px;
-    background: #17255A;
     margin-top: 50px;
+    color: rgb(24, 23, 23);
+}
+
+.learnable-container .text-bg div h2,
+.learnable-container .text-bg div p {
+    margin-bottom: 40px;
+}
+
+.agora{
+    background: #eeeeee;
+}
+
+.blue-bg {
+    background: #17255A;
 }
 
 .text-bg {
@@ -58,9 +69,10 @@
     align-items: center;
 }
 
-.text-bg div h2,
-.text-bg div p {
-    color: whitesmoke
+.blue-bg .text-bg div h2,
+.blue-bg .text-bg div p {
+    color: whitesmoke;
+    margin-bottom: 40px;
 }
 
 .text-bg div h2 {
@@ -84,4 +96,8 @@
     text-align: left;
     color: #03CEA4;
 
+}
+
+.subscribe{
+    background: #03CEA4;
 }
