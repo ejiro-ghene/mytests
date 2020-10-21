@@ -8,136 +8,72 @@ function Home() {
     return <>
         <Menu/>
         <header className="header-container">
-             <div className="header-content">
+            <div className="header-content">
 
-                 <section className="text-one">
-                    <h1>Coming soon: Learnable ‘20</h1>
-                    <p>We've started taking in applications for the next batch of learnable interns. Applications are on till the 21st of Febuary</p>
-                 </section>
-
-                <section className="text-two">
-                    <span>
-                    Click link to download...
-                    </span><br/>
-                    <Link>Learnable ‘20 Brochure</Link>
+                <section className="text-one">
+                <h1>Coming soon: Learnable ‘20</h1>
+                <p>We've started taking in applications for the next batch of learnable interns. Applications are on till the 21st of Febuary</p>
                 </section>
-             </div>
-             
-         </header>
 
-        <section className="hero">
-                <div className="hero-text-container">
-                        <section className="hero-text">
-                            <h1>
-                                Everything <br/>
-                                is Learnable
-                            </h1>
-
-                            <p>
-                            Learnable is the perfect product <br/>
-                            development internship program brought to <br/>
-                            you by Genesys.
-                            </p>
-                        </section>
+            <section className="text-two">
+                <span>
+                Click link to download...
+                </span><br/>
+                <Link>Learnable ‘20 Brochure</Link>
+            </section>
+            </div>
+        </header>
+        
+        <section className="home-hero">
+            <div className="home-hero-header">
+                <div className="home-hero-header-content home-container">
+                    <h1 className="home-hero-content-title">Everything is Learnable</h1>
+                    <p className="home-hero-content-text">
+                        Learnable is the perfect product development internship program brought to you by Genesys.
+                    </p>
                 </div>
-
-                <div className="media-section">
-                <div className="hero-media">
-
-                    <div className="explore">
-                        <div className="explore-option-1">
-                            <section className="circle-1">
-                                <img src={require('../img/Rec 9.png')} alt=""/> 
-                                
-                                {/* <span className="text-1">
-                                    Development
-                                </span>
-                                    
-                                <span className="text-2">
-                                    What to expect
-                                </span> */}
-                            </section>
-                        </div>
-                        <div className="explore-option-2"> 
-                            <section className="circle-2">
-                            <img src={require('../img/Rec 94.png')} alt=""/>
-
-                                {/* <span className="text-3">
-                                    Product Design
-                                </span>
-                                    
-                                <span className="text-4">
-                                    What to expect
-                                </span> */}
-                            </section>
+                <div className="home-hero-circles">
+                    <div className="home-hero-bg carribean-green">
+                        <div>
+                            <span className="home-hero-bg-title">Development </span><span> {'>'}</span>
+                            <p className="home-hero-bg-text"> What to expect</p>
+                        </div>                
+                    </div>
+                    <div className="home-hero-bg space-cadet">
+                        <div className="white-text">
+                            <span className="home-hero-bg-title">Product Design</span><span> {'>'}</span>
+                            <p className="home-hero-bg-text">What to expect</p>
                         </div>
                         
                     </div>
-                    <div className="video-container">
-
-                        <img src={require('../img/Rec 4.jpg')} alt=""/>
-
-                    <div className="play-container-area">
-                            <section className="play-button">
-                                <div className="play-container-text">
-                                    <span>Discover the Learnable Experience</span>
-                                </div>
-                            </section>
-                    </div>
-                    </div>
-                    <div className="scroll-icon">
-                    <img src={require('../img/Skip-arrow.png')} alt=""/>
-                    </div>
-                
                 </div>
+            </div>
 
-                <div className="statistics-container">
-                    <section className="stat-item-1">
-                        <span className="num1">
-                            250
-                        </span>
-
-                        <span className="text1">
-                            Small Businesses supported
-                        </span>
-                    </section>
-
-                    <section className="stat-item-2">
-                        <span className="num2">
-                            8
-                        </span>
-
-                        <span className="text2">
-                            StartUps Incubated
-                        </span>
-                    </section>
-
-                    <section className="stat-item-3">
-                        <span className="num3">
-                            2100
-                        </span>
-
-                        <span className="text3">
-                            Tech Enthusiasts
-                        </span>
-                    </section>
-
-                    <section className="stat-item-4">
-                        <span className="num4">
-                            305
-                        </span>
-
-                        <span className="text4">
-                        Young Software Developers Trained
-                        </span>
-                    </section>
-                </div>
-             </div>
-                
-                
-         </section>
-         
-        <section className="people-great">
+            <div className="home-hero-media">
+                <span className="home-hero-arrow-down"><img src={require('../img/Skip-arrow.png')} alt=""/></span>
+                <div className="home-hero-media-video"><img src={require('../img/Rec 4.jpg')} alt=""/></div>
+            </div>
+            <div className="home-hero-grey">
+                <span className="home-hero-grey-group">
+                    <p className="home-hero-grey-number"></p>
+                    <p className="home-hero-grey-text"></p>
+                </span>
+                <span className="home-hero-grey-group">
+                    <p className="home-hero-grey-number"></p>
+                    <p className="home-hero-grey-text"></p>
+                </span>
+                <span className="home-hero-grey-group">
+                    <p className="home-hero-grey-number"></p>
+                    <p className="home-hero-grey-text"></p>
+                </span>
+                <span className="home-hero-grey-group">
+                    <p className="home-hero-grey-number"></p>
+                    <p className="home-hero-grey-text"></p>
+                </span>
+            </div>
+        </section>        
+        
+        <section className="people-great home-container">
             <div className="great-peeps">
                 <div className="content">
                     <div className="photo-copy-container">
@@ -211,11 +147,10 @@ function Home() {
                         </p>
                     </section>
                 </section>                
-
             </section>
-
         </section>
-        <section className="people-great">
+
+        <section className="people-great home-container">
             <div className="great-peeps">
                 <div className="content">
                     <div className="photo-copy-container">
