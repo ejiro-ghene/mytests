@@ -5,9 +5,10 @@ import Subscribe from '../components/subscribe';
 
 const SoftwareDevelopers = () => {
     return (
-        <div className='software-container'>
-            <Menu/>
-            <div className="hero">
+        <>
+        <Menu/>
+        <div className='software-container'>    
+            <div className="software-hero">
                 <div className="hero-container">
                     <p className="title">
                         The Learnable Software Developer
@@ -35,24 +36,25 @@ const SoftwareDevelopers = () => {
                     <img src={require('../img/laptop.png')} alt=""/>
                 </div>
                 <div className="text">
-                    <h3>We expect you to…</h3>
+                    <h3>We expect you to…</h3><br/><br/>
                     <p>
-                        Play nice with other people.
+                        Play nice with other people. <br/><br/>
 
-                        Be an actively engaging person. That means you are present, motivated, and social. You know how to communicate effectively with your teammates.
+                        Be an actively engaging person. That means you are present, motivated, and social. You know how to communicate effectively with your teammates.<br/><br/>
 
-                        Love to code. You understand the basics of programming and object-oriented design and development.
+                        Love to code. You understand the basics of programming and object-oriented design and development.<br/><br/>
 
-                        Have an eye for detail. Your keen observation helps you catch discrepancies and fix them quickly.
+                        Have an eye for detail. Your keen observation helps you catch discrepancies and fix them quickly.<br/><br/>
 
-                        Be innately curious. Your love for technology is insatiable, so you’re always researching and experimenting. Learning new technical skills while on the job is something you look forward to.
+                        Be innately curious. Your love for technology is insatiable, so you’re always researching and experimenting. Learning new technical skills while on the job is something you look forward to.<br/><br/>
 
                         Appreciate good design. You want to make something that doesn't just work flawlessly but looks amazing.
                     </p>
                 </div>
-            </div>
-            <Subscribe/>            
+            </div>            
         </div>
+        <Subscribe/>
+        </>
     )
 }
 

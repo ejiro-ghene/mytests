@@ -174,3 +174,91 @@ a{
     margin-top: -2px 0px 0px 0px;
     border-radius: 125px;
 }
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.copy-text h1{
+    /* //styleName: Headline 3; */
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 90px;
+
+}
+
+.copy-text p{
+    /* //styleName: Body 1; */
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.learning-experience{
+    height: 780px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 50px;
+    background: #EEEEEE;
+    margin-top: 50px;
+}
+
+.experience-text{
+    display: flex;
+    align-items: center;
+}
+
+.learning-experience-0{
+    height: 780px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 50px;
+    margin-top: 50px;
+}
+
+.learning-experience-1{
+    height: 780px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 50px;
+    background: #F5772F;
+    margin-top: 50px;
+}
+
+.experience-text-1{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.learning-experience-2{
+    height: 780px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 50px;
+    background: #17255A;
+}

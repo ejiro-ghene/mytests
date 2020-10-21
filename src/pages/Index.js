@@ -80,34 +80,35 @@ function index() {
                 </div>
             </div>
 
-            <div className="others learnable-container">
-                <div className="blue-bg-img">
-                    <div className="others-img-title">
-                        <img src={require('../img/Rectangle 42.png')} alt="" />
-                        <span className='colored-text others-text-md'>
-                            Genesys <br/>Ignite
-                        </span>
-                    </div>
-                    
-                    <div className="others-img">
-                        <div>
-                            <img src={require('../img/Rectangle 38.png')} alt="" />
-                            <p className='colored-text others-text-sm'>CodeVille</p>
+            <div className="others-container">
+                <div className="others learnable-container">
+                    <div className="blue-bg-img">
+                        <div className="others-img-title">
+                            <img src={require('../img/Rectangle 42.png')} alt="" />
+                            <span className='colored-text others-text-md'>
+                                Genesys <br/>Ignite
+                            </span>
                         </div>
-                        <div>
-                            <img src={require('../img/Rectangle 38 (1).png')} alt="" />
-                            <p className='colored-text others-text-sm'>Pink summer of code</p>
+                        
+                        <div className="others-img">
+                            <div>
+                                <img src={require('../img/Rectangle 38.png')} alt="" />
+                                <p className='colored-text others-text-sm'>CodeVille</p>
+                            </div>
+                            <div>
+                                <img src={require('../img/Rectangle 38 (1).png')} alt="" />
+                                <p className='colored-text others-text-sm'>Pink summer of code</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className='others-title'>
-                    <div>
-                        <h1 className="colored-text other-text-bg">Other things we do</h1>   
+                    <div className='others-title'>
+                        <div>
+                            <h1 className="colored-text other-text-bg">Other things we do</h1>   
+                        </div>
+                        
                     </div>
-                    
-                </div>
-            </div>            
-            
+                </div>            
+            </div>
             <div className="blue-bg learnable-container">
                 <div className="blue-bg-img">
                     <img src={require('../img/blue-bg-img.png')} alt=""/>

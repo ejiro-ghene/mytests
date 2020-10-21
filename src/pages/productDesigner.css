@@ -1,14 +1,27 @@
-.articles{
-    margin-bottom: 50px;
-    width: 200px;
+.design-hero-img{
+    margin-top: 90px;
+    border-radius: 50%;
+    background: #F5772F;
 }
 
-.productDesign{
+.design-hero-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.design-quote p {
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color:  #F5772F;
+}
+
+.design-quote {
     display: grid;
-    grid-gap: 50px;
-    grid-template-columns: repeat(2, 1fr);
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -70px;
+    grid-template-columns: 2fr 1fr;
 }

@@ -1,14 +1,15 @@
 .software-container {
     width: 80%;
     margin-left: 100px;
+    padding-top: 60px;
 }
 
-.software-container .hero {
+.software-container .software-hero {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.software-container .hero .hero-container .title {
+.software-container .software-hero .hero-container .title {
     font-family: Roboto;
     font-size: 96px;
     font-style: normal;
@@ -20,7 +21,7 @@
 
 }
 
-.software-container .hero .hero-container .hero-text {
+.software-container .software-hero .hero-container .hero-text {
     font-family: Nunito;
     font-size: 17px;
     font-style: normal;
@@ -28,6 +29,8 @@
     line-height: 28px;
     letter-spacing: 0.5px;
     text-align: left;
+    margin-top: 78px;
+    margin-bottom: 126px;
 }
 
 .hero-img {
@@ -60,6 +63,8 @@
 
 .group-97 .img {
     text-align: end;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
 .text{

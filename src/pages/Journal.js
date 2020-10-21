@@ -3,6 +3,7 @@ import './Journal.css'
 import Grid from '../components/Grid-4'
 import Menu from '../components/Menu';
 import Subscribe from '../components/subscribe';
+import { Link } from 'react-router-dom';
 
 function Journal() {
     return <>
@@ -12,15 +13,15 @@ function Journal() {
             <div>
                 <button>CATEGORIES</button>
             </div>
-        </section>
+        </section> 
 
         <section className="journal-hero">
-            <div className="hero-img">
+            <div className="journal-hero-img">
                 <img src={require('../img/Photo (2).png')} alt=""/>
             </div>
             <div className="hero-content">
-                <p className='grid-head'>INSPIRATION</p>
-                <p className='grid-title'>
+                <Link className='journal-grid-head'>INSPIRATION</Link>
+                <p className='journal-grid-title'>
                     Learn Design Thinking like a Pro and Build Projects that People will care about
                 </p>
                 <p>

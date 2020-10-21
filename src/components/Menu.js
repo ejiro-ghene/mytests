@@ -7,7 +7,7 @@ function Menu() {
         <section className="menu-container">
             <div className="menu-bar">
                 <Link to="/home">HOME</Link>
-                <Link to="/softwareDesigners">SOFTWARE DEVELOPERS</Link>
+                <Link to="/softwaredevelopers">SOFTWARE DEVELOPERS</Link>
                 <Link to="/productDesigners">PRODUCT DESIGNERS</Link>
                 <Link to="/apply">APPLY</Link>
                 <Link to="/journal">JOURNAL</Link>

@@ -1,42 +1,64 @@
 import React from 'react'
 import Menu from '../components/Menu';
 import Subscribe from '../components/subscribe';
+import './productDesigner.css'
 
 function productDesigners() {
     return (
         <>
-            <Menu/>
-            <h1>productDesigners</h1>
+        <Menu/>
+        <div className='software-container'>    
+            <div className="software-hero">
+                <div className="hero-container">
+                    <p className="title">
+                        The Learnable Product Designer
+                    </p>
+                    <p className="hero-text">
+                        Creativity means a lot to us. So we look for people who can think both logistically and artistically, and who know that limits are made to be pushed. We value skill and aptitude, but we honor those who care about working with their team to add the Genesys flavour to every project. 
+                        <br/><br/>
+                        As a developer, being part of the team exposes you to a range of diverse, like-minded talented people who are sure to make the experience fun for you. You’ll get a shot at building amazing things, developing yourself, learning on the job, while exchanging healthy jokes and having random hangouts once in a while.
 
-           <section className="productDesign">
-                    <div className="hero-img">
-                        <img src={require('../img/Photo (4).png')} alt=""/>
-                    </div>
-                    <div className="articles">
-                        <h1 className="article-title">We expect you to…</h1>
-                        <p className="article-content">
-                            Play nice with other people.
-
-                            Be an actively engaged person. That means you are present, motivated, and social.
-
-                            Understand how to use the Figma design software
-
-                            Be able to create initial design layouts with confidence and know-how to effectively communicate concepts to everyone on your team.
-
-                            Have a basic understanding of design principles and theories
-                            To have creative courage. This is a tough industry, only the brave and sturdy remain.
-                            
-                            Be prepared to defend your decisions and take constructive criticism.
-                        </p>
-
-                        <p>
-                            To us, beauty without substance has no value. At Genesys, design thinking and execution are equally important, so we’re constantly on the lookout for not only the how but also the why.
-                        </p>
+                    </p>
+                </div>    
+                <div className="design-hero-img">
+                    <img src={require('../img/Cutout 1.png')} alt=""/>
                 </div>
-            </section>
-            <Subscribe/>
+            </div>
+
+            <div className="design-quote">
+                <p>
+                “The greats weren’t great because at birth they could paint. The greats were great because they painted a lot.” 
+                    - Macklemore
+
+                    
+                </p>
+            </div>
+
+            <div className="group-97">
+                <div className="img">
+                    <img src={require('../img/Photo (4).png')} alt=""/>
+                </div>
+                <div className="text">
+                    <h3>We expect you to…</h3><br/><br/>
+                    <p>
+                        Play nice with other people. <br/><br/>
+
+                        Be an actively engaging person. That means you are present, motivated, and social. You know how to communicate effectively with your teammates.<br/><br/>
+
+                        Love to code. You understand the basics of programming and object-oriented design and development.<br/><br/>
+
+                        Have an eye for detail. Your keen observation helps you catch discrepancies and fix them quickly.<br/><br/>
+
+                        Be innately curious. Your love for technology is insatiable, so you’re always researching and experimenting. Learning new technical skills while on the job is something you look forward to.<br/><br/>
+
+                        Appreciate good design. You want to make something that doesn't just work flawlessly but looks amazing.
+                    </p>
+                </div>
+            </div>            
+        </div>
+        <Subscribe/>
         </>
     )
 }
-
-export default productDesigners
+    
+    export default productDesigners

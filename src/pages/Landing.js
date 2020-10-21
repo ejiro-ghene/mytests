@@ -31,11 +31,11 @@ const Landing = () => {
                 </div>
                 <div className="text-bg">
                     <div>
-                    <h2>The best team in the world</h2>
-                    <p>We work with the most amazing people our industry has to offer. They are really passionate about making a difference</p>
-                    <p className="sm-text">
-                    See team
-                    </p>
+                        <h2>The best team in the world</h2>
+                        <p>We work with the most amazing people our industry has to offer. They are really passionate about making a difference</p>
+                        <p className="sm-text">
+                        See team
+                        </p>
                     </div>
                     
                 </div>
