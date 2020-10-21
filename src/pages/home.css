@@ -78,7 +78,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.home-container{
+.home-container {
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -93,6 +93,7 @@ a {
     text-align: left;
     color: #17255A;
 }
+
 
 .home-hero-content-text {
     font-family: Roboto;
@@ -140,11 +141,11 @@ a {
     text-decoration-line: underline;
 }
 
-.home-hero-bg-text{
+.home-hero-bg-text {
     margin-top: 10px;
 }
 
-.white-text{
+.white-text {
     color: whitesmoke;
 }
 
@@ -166,6 +167,42 @@ a {
     height: 536px;
     margin-top: -220px;
 }
+
+.home-hero-grey {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 120px;
+    justify-content: center;
+}
+
+.home-hero-grey-groups {
+    display: flex;
+    gap: 50px;
+}
+
+.home-hero-grey-number {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #03CEA4;
+    margin-bottom: 10px;
+}
+
+.home-hero-grey-text {
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    width: 135px;
+}
+
 
 .content {
     display: grid;
@@ -238,14 +275,6 @@ a {
 
 
 
-
-
-
-
-
-
-
-
 .learning-experience-2 {
     height: 780px;
     display: grid;
@@ -253,4 +282,57 @@ a {
     grid-template-columns: 1fr 1fr;
     padding: 100px 50px;
     background: #17255A;
+}
+
+.home-faq-title{
+    margin-top: 89px;
+    margin-bottom: 170px;
+    margin-left: 314px;
+}
+
+.home-faq-content{
+    width: 260px;
+    margin: auto;
+}
+
+.home-faq-link{
+    text-align: center;
+    margin-bottom: 98px;
+}
+
+.home-journal {
+    padding: 90px;
+    background: #eeeeee;
+}
+
+.home-title-text {
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #17255A;
+}
+
+.home-journal-title {
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+.home-journal-text {
+    padding-left: 140px;
+}
+
+.grid-home {
+    margin-top: 70px;
+}
+
+.home-partners {
+    height: 234px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
 }

@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import './home.css'
 import Menu from '../components/Menu';
 import Subscribe from '../components/subscribe';
+import Grid from '../components/Grid-4'
 
 function Home() {
     return <>
@@ -54,22 +55,25 @@ function Home() {
                 <div className="home-hero-media-video"><img src={require('../img/Rec 4.jpg')} alt=""/></div>
             </div>
             <div className="home-hero-grey">
-                <span className="home-hero-grey-group">
-                    <p className="home-hero-grey-number"></p>
-                    <p className="home-hero-grey-text"></p>
-                </span>
-                <span className="home-hero-grey-group">
-                    <p className="home-hero-grey-number"></p>
-                    <p className="home-hero-grey-text"></p>
-                </span>
-                <span className="home-hero-grey-group">
-                    <p className="home-hero-grey-number"></p>
-                    <p className="home-hero-grey-text"></p>
-                </span>
-                <span className="home-hero-grey-group">
-                    <p className="home-hero-grey-number"></p>
-                    <p className="home-hero-grey-text"></p>
-                </span>
+                <div className="home-hero-grey-groups">
+                    <span className="home-hero-grey-group">
+                        <p className="home-hero-grey-number">305</p>
+                        <p className="home-hero-grey-text">Young Software Developers Trained</p>
+                    </span>
+                    <span className="home-hero-grey-group">
+                        <p className="home-hero-grey-number">2100</p>
+                        <p className="home-hero-grey-text">Tech Enthusiasts</p>
+                    </span>
+                    <span className="home-hero-grey-group">
+                        <p className="home-hero-grey-number">8</p>
+                        <p className="home-hero-grey-text">StartUps Incubated</p>
+                    </span>
+                    <span className="home-hero-grey-group">
+                        <p className="home-hero-grey-number">250</p>
+                        <p className="home-hero-grey-text">Small Businesses Supported</p>
+                    </span>
+                </div>
+                
             </div>
         </section>        
         
@@ -135,7 +139,7 @@ function Home() {
                 <section className="data-with-mongoDB"></section>
                 <section className="Heroku"></section>
 
-                </section>
+        </section>
                 <section className="copy-element">
                     <span>FOR DEVELOPERS</span>
                     <section className="text-1">
@@ -213,10 +217,60 @@ function Home() {
             </div>
 
         </section>
-        <Subscribe/>
+
+        <section className="home-faq">
+            <div className="home-title-text home-faq-title">FAQ</div>
+            <div className="home-faq-content">
+                <div className="faq-content">
+                    <p>How many people can attend a course?</p>
+                </div>
+                <div className="faq-content">
+                    <p>How many people can attend a course?</p>
+                </div>
+                <div className="faq-content">
+                    <p>How many people can attend a course?</p>
+                </div>
+                <div className="faq-content">
+                    <p>How many people can attend a course?</p>
+                </div>
+                <div className="faq-content">
+                    <p>How many people can attend a course?</p>
+                </div>
+                <div className="home-faq-link"><Link className='grid-head'>VIEW ALL</Link></div>
+            </div>
+        </section>
+
+        <section className="home-journal home-container">
+            <div className="home-title-text home-journal-title">Journal</div>
+            <span className="home-journal-text">
+                <Link className="grid-head">VIEW ALL</Link>
+            </span>
+            <div className="grid-home"><Grid/></div>
+        </section>
+        
+        <section className="home-partners home-container">
+            <span className="mentioned">
+                Mentioned In
+            </span>
+            <span>
+                <img src={require('../img/image 27.png')} alt=""/>
+            </span>
+            <span>
+                <img src={require('../img/image 28.png')} alt=""/>
+            </span>
+            <span>
+                <img src={require('../img/image 29.png')} alt=""/>
+            </span>
+            <span>
+                <img src={require('../img/image 30.png')} alt=""/>
+            </span>
+            <span>
+                <img src={require('../img/image 31.png')} alt=""/>
+            </span>
+        </section>
+        
+        <Subscribe />
         </>
 }
 
 export default Home
-
-{/* <img src={require('../img/Cutout 1.png')} alt=""/> */}
